@@ -1,5 +1,5 @@
-BILLBY
-======
+Todo App
+========
 
 ## Quick Start
 
@@ -16,4 +16,4 @@ $ grunt watch
 ```
 
 
-Finally, open `file:///path/to/billby_frontend/build/index.html` in your browser.
+Finally, open `file:///path/to/todo_app/build/index.html` in your browser.
