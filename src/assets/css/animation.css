@@ -1,0 +1,17 @@
+.animate-show {
+    line-height: 20px;
+    opacity: 1;
+}
+
+.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
+    transition: all linear 0.2s;
+}
+
+.animate-show.ng-hide {
+    line-height: 0;
+    opacity: 0;
+}
+
+.check-element {  
+    transition: 0.2s linear all;
+}

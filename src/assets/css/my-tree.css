@@ -1,0 +1,253 @@
+
+/* project tree */
+.mtree-project-wrap {
+	list-style: none;
+	padding: 0;
+}
+
+.mtree-file-wrap {
+	list-style: none;
+	padding-bottom: 10px !important;
+}
+
+.mtree-default {
+	position: relative;
+	height: 44px;
+	line-height: 2.9;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.mtree-project {
+	background: #323945;
+}
+
+.mtree-file-collapse {
+	transition: all linear 0.1s;
+    opacity: 1;
+}
+.mtree-file-collapse.ng-hide {
+	opacity: 0;
+}
+
+/*.mtree-parent:before {
+	content:"";
+	display:block;
+	width:0;
+	position:absolute;
+	top:0;
+	bottom:190px;
+	left:8px;
+	border-left:1px solid;
+}
+
+.mtree-parent .mtree-child:before {
+  content:"";
+  display:block;
+  width:11px;
+  height:0;
+  border-top:1px solid;
+  margin-top:9px; 
+  position:absolute;
+  top:1em; 
+  left:-11px;
+}
+
+.mtree-parent-share:before {
+	content:"";
+	display:block;
+	width:0;
+	position:absolute;
+	top:20px;
+	bottom:51px;
+	left:35px;
+	border-left:1px solid;
+}
+
+.mtree-parent-share .mtree-child-share:before {
+  content:"";
+  display:block;
+  width:20px;
+  height:0;
+  border-top:1px solid;
+  margin-top:30px; 
+  position:absolute;
+  top:4em; 
+  left:36px;
+}*/
+
+.mtree-project a {
+	color: #ffffff;
+}
+
+.mtree-project-title {
+	width: 20%;
+	margin: 0 auto;
+}
+	.mtree-project-title a {
+		color: #ffffff !important; border: none !important;
+	}
+
+.mtree-inline-project-title a {
+	color: #ffffff !important; 
+	border: none !important;
+	font-style: normal !important;
+	font-weight: bold;
+}
+
+.mtree-file {
+	background: #9ca9b5;
+}
+
+.mtree-file a {
+	color: #fff;
+}
+
+.mtree-file .mtree-expire {
+	position: absolute;
+	color: #fff;
+	left: 30px;
+	height: 100%;
+
+	cursor: pointer;
+}
+
+	.mtree-file .mtree-expire-picker {
+		display: none;
+		position: relative;
+		top: 0px;
+		left: -30px; 
+		z-index: 10000;
+		color: #434343;
+
+	}
+
+	.mtree-file .mtree-expire:hover .mtree-expire-picker {
+		display: block;
+	}
+
+.mtree-file-version {
+	position: relative;
+	z-index: 100;
+	background: #9CA9B5;
+    list-style: none;
+    width: 300px;
+    margin: 4px auto;
+    padding: 0 10px;
+    border-left: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+	.mtree-file-version li {
+		cursor: pointer;
+	}
+
+	.mtree-file-version li:hover {
+		font-weight: bold;
+	}
+
+.mtree-handle {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	background: none !important;
+	border: none !important;
+	padding: 0 !important;
+	cursor: move;
+}
+
+.mtree-handle:hover {
+	color: #ffffff !important;
+}
+
+.mtree-rc-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	list-style: none;
+}
+
+.mtree-rc-menu li {
+	float: left;
+	padding-right: 10px;
+}
+
+.mtree-upload {
+	border: 1px solid;
+	height: 250px;
+	text-align: center;
+}
+
+.mtree-hidden-menu {
+	width: 300px;
+	height: 42px;
+	padding: 0 10px;
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	color: #fff;
+	background: #20baa6;
+	line-height: 2.9;
+	transition: all linear 0.1s;
+}
+.mtree-hidden-menu p {
+	opacity: 1;
+	width: 300px;
+	margin: 0 auto;
+	transition: all linear 0.1s;
+}
+.mtree-hidden-menu.ng-hide {
+	width: 0;
+}
+.mtree-hidden-menu.ng-hide p {
+	opacity: 0;
+	width: 0;
+	display: none;
+}
+
+.mtree-hidden-menu p a {
+    padding: 0 10px;
+    color: #fff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* override */
+.angular-ui-tree-placeholder {
+    margin: 5px 0;
+    padding: 0;
+    min-height: 30px;
+    background: #dcdcdc;
+    border: 2px dashed #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.angular-ui-tree-handle {
+    cursor: move;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 20px;
+    line-height: inherit !important;
+}
+
+.angular-ui-tree-empty {
+	display: none;
+}
+
+/* IE 11 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .mtree-file .mtree-expire-picker {
+		top: -380px;
+		left: 55px; 
+	}
+
+	.mtree-file .mtree-expire:hover {
+		left: -55px;
+	}
+} 

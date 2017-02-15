@@ -1,0 +1,145 @@
+
+input[type=checkbox] {
+    display: none;
+
+}
+.checkbox{
+    color: #8ca0b3;
+    font-size: 16px;
+    font-family: 'SFUIText';
+}
+.checkboxFive {
+    margin-left: 30px;
+    margin-bottom: 28px;
+    position: relative;
+
+}
+.checkboxFive label {
+    cursor: pointer;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: -30px;
+    background: #eee;
+    border:1px solid #ddd;
+    border-radius: 2px;
+}
+.checkboxFive label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 7px;
+    background: transparent;
+    top: 1px;
+    left: 5px;
+    border: 3px solid #33a2d9;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+.checkboxFive label:hover::after {
+    opacity: 0;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+.checkboxFive input[type=checkbox]:checked + label:after {
+    opacity: 1;
+    color: #6ec0fa;
+}
+.radio label, .checkbox label {
+    padding-left: 16px !important;
+}
+
+.checkboxOne {
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 28px;
+}
+.checkboxOne label {
+    cursor: pointer;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: -30px;
+    background: #eee;
+    border:1px solid #ddd;
+    border-radius: 2px;
+}
+.checkboxOne label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 7px;
+    background: transparent;
+    top: 1px;
+    left: 5px;
+    border: 3px solid #33a2d9;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+.checkboxOne label:hover::after {
+    opacity: 0;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+.checkboxOne input[type=checkbox]:checked + label:after {
+    opacity: 1;
+    color: #6ec0fa;
+
+}
+.checkboxTwo {
+    margin-left: 30px;
+    margin-bottom: 28px;
+    position: relative;
+}
+.checkboxTwo label {
+    cursor: pointer;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: -30px;
+    background: #eee;
+    border:1px solid #ddd;
+    border-radius: 2px;
+}
+.checkboxTwo label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 7px;
+    background: transparent;
+    top: 1px;
+    left: 5px;
+    border: 3px solid #33a2d9;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+.checkboxTwo label:hover::after {
+    opacity: 0;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+
+.checkboxTwo input[type=checkbox]:checked + label:after {
+    opacity: 1;
+
+}
+input[type="checkbox"].input_checkbox:checked + label{
+    color: #33a2d9 !important;
+    background: #d6effc !important;
+    border: 0.5px solid #33a2d9 !important;
+}

@@ -1,0 +1,1393 @@
+.back-to-homepage {
+    padding-left: 49px;
+    padding-top: 17px;
+}
+
+.back-to-homepage a {
+    width: 151px;
+    background: #33a2d9 !important;
+    border: 0px;
+    height: 28px;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: 'SFUIText';
+    text-align: center;
+    letter-spacing: 0.025em;
+}
+
+.faicon-btn {
+    float: left;
+    padding-top: 3px;
+}
+
+/*#title-btn {
+    float: right;
+    padding-right: 6px;
+    padding-top: 1px;
+}*/
+
+.form-signin {
+    padding-top: 126px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.input-group input:focus {
+    border-bottom: solid 1px #cbd4d8;
+}
+
+.input-group input {
+    border: 0px;
+    height: 38px;
+    object-fit: contain;
+    border-bottom: solid 1px #cbd4d8;
+    object-fit: contain;
+    font-family: 'SFUITextRes';
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #000000;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.input-group input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #929497;
+    text-align: left;
+}
+
+.input-group input::-moz-placeholder { /* Firefox 19+ */
+    color: #929497;
+    text-align: left;
+}
+
+.input-group input:-ms-input-placeholder { /* IE 10+ */
+    color: #929497;
+    text-align: left;
+}
+
+.input-group input:-moz-placeholder { /* Firefox 18- */
+    color: #929497;
+    text-align: left;
+}
+
+#searchKey {
+    text-indent: 3.8%;
+    width: 384px;
+    position: relative;
+    border-radius: 50px;
+    padding-right: 30px;
+    border: 0.5px solid #8ca0b3 !important;
+}
+
+.fogot-pass {
+    object-fit: contain;
+    font-family: 'SFUITextRes';
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.7px;
+    text-align: right;
+    color: #cbd4d8;
+}
+
+.btn-login {
+    object-fit: contain;
+    width: 82px;
+    height: 82px;
+    border-radius: 100%;
+    background-color: #85df21;
+    font-family: 'SFUITextRes';
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.7px;
+}
+
+.btn-login:hover {
+    color: #ffffff;
+}
+
+.btn-login:focus {
+    color: #ffffff;
+}
+
+button[disabled] {
+    opacity: 1 !important;
+    cursor: not-allowed;
+}
+
+button.btn-login[disabled] {
+    color: #979797;
+    background: none;
+    border: 1px solid #979797;
+    cursor: not-allowed !important;
+}
+
+.input-group input.ng-invalid {
+    border-bottom: solid 1px #ff3b30;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    pointer-events: auto !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    font-family: 'SFUITextRes';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #9b9b9b;
+    height: 61px;
+    object-fit: contain;
+    background-color: #ececec;
+    padding-top: 25px;
+}
+
+.form-forget {
+    padding-top: 55px;
+}
+
+.forget-title {
+    object-fit: contain;
+    font-family: 'SFUITextRes';
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #697b8c;
+    padding-bottom: 8px;
+}
+
+.enter-forgot {
+    object-fit: contain;
+    font-family: 'SFUITextRes';
+    font-size: 13.5px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #8ca0b3;
+    padding-bottom: 38px;
+}
+
+.forgot-email {
+    margin-top: 35px;
+}
+
+.modal-dialog {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 418px;
+    height: 198px;
+}
+
+.modal-content {
+    height: 198px;
+    border-radius: 20px;
+}
+
+.modal-backdrop {
+    -webkit-backdrop-filter: blur(7.4px) !important;
+    backdrop-filter: blur(7.4px) !important;
+    background-color: rgba(40, 132, 186, 1) !important;
+}
+
+.viewCaseAssigned-modal {
+    text-align: center;
+}
+
+.btn-done-popup {
+    object-fit: contain;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: none !important;
+    font-family: 'SFUITextRes';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #33a2d9 !important;
+    letter-spacing: 0.7px;
+    margin-top: 22px;
+    border: 1px solid #33a2d9 !important;
+}
+
+.btn-done-popup:hover {
+    background: #33a2d9 !important;
+    color: #fff !important;
+}
+
+.modal-title-mess {
+    padding-top: 32px;
+    object-fit: contain;
+    font-family: 'SFUITextRes';
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #697b8c;
+}
+
+.modal-sub-title {
+    padding-top: 10px;
+    object-fit: contain;
+    font-family: 'SFUITextRes';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #8ca0b3;
+}
+
+/*==============header=======================*/
+.home.mainAdmin.ng-scope {
+    height: 61px;
+    border-bottom: solid 0.5px #d8d8d8;
+}
+
+.menu-left {
+    width: 250px;
+    height: 1024px;
+    object-fit: contain;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #33a2d9;
+    margin-top: -61px;
+    position: fixed;
+}
+
+.menu-left img {
+    padding: 50px 37px 68px 38px;
+}
+
+a.menu-header {
+    object-fit: contain;
+    font-family: 'SFUITextLight';
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #8ca0b3 !important;
+}
+
+.menu-main ul {
+    list-style-type: none !important;
+}
+
+.menu-main ul > li {
+    text-decoration: none;
+    height: 60px;
+    text-align: left;
+    padding-left: 28px;
+    margin-left: -40px;
+    width: 250px;
+    padding-top: 22px;
+}
+
+.menu-main ul > li.active {
+    background-color: #ffffff;
+}
+
+.menu-main ul > li.active > a {
+    color: #343534 !important;
+}
+
+.menu-main ul > li > a {
+    text-decoration: none;
+    object-fit: contain;
+    font-family: 'SFUITextRes';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #cbd4d8 !important;
+}
+
+.menu-main ul > li.active > a .icon-gli {
+    color: #b2bbc6 !important;
+    padding-right: 18px;
+    font-size: 10px;
+    float: left;
+
+}
+
+.menu-main ul > li > a .icon-gli {
+    padding-right: 18px;
+    color: #33a2d9;
+    float: left;
+    padding-top: 5px;
+}
+
+.admin {
+    object-fit: contain;
+    background-color: #f5f5f6 !important;
+    position: relative;
+    margin-left: 250px;
+    padding-top: 42px;
+    padding-left: 36px;
+    padding-right: 31px;
+    margin-bottom: 20px;
+}
+
+/*======dash board========*/
+.admin-top {
+    object-fit: contain;
+    background-color: #ffffff;
+    border: solid 0.5px #d8d8d8;
+}
+
+.dashboard-base {
+    height: 153px;
+}
+
+.dashboard-base-padding {
+    padding: 8px 30px 24px 48px;
+}
+
+.title-user-static {
+    object-fit: contain;
+    font-family: 'SFUITextLight';
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #697b8c;
+}
+
+.base-right {
+    text-align: right;
+    margin-top: 31px;
+}
+
+.title-user-total {
+    padding-top: 33px;
+    object-fit: contain;
+    font-family: 'SFUITextLight';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #8ca0b3;
+    text-align: right;
+}
+
+.number-user-total {
+    font-size: 34px;
+    font-family: 'SFUITextLight';
+    color: #33a2d9;
+}
+
+.static-us {
+    margin-top: -6px;
+    text-align: left;
+}
+
+.total-up {
+    text-align: right;
+}
+
+.total-user {
+    padding-left: 100px;
+}
+
+.select-time select {
+    object-fit: contain;
+    font-family: 'SFUITextLight';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #8ca0b3;
+    border: 0px;
+}
+
+.admin-chart {
+    height: 580px;
+    object-fit: contain;
+    background-color: #ffffff;
+    border: solid 0.5px #d8d8d8;
+    margin-top: 37px;
+}
+
+g.highcharts-input-group {
+    display: none;
+}
+
+g.highcharts-range-selector-buttons {
+    display: none;
+}
+
+.color-char-hight {
+    object-fit: contain;
+    font-family: 'SFUITextLight';
+    font-size: 16px !important;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #8ca0b3 !important;
+}
+
+.chart-base {
+    padding-left: 10px;
+}
+
+.color-char-hight-title {
+    object-fit: contain;
+    font-family: 'SFUITextLight';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #697b8c;
+    padding-top: 30px;
+    padding-left: 38px;
+}
+
+tspan {
+    font-family: 'SFUITextLight';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #8ca0b3 !important;
+    fill: #8ca0b3 !important;
+}
+
+.chart-top {
+    height: 73px;
+    opacity: 0.76;
+    border-bottom: solid 0.5px #d8d8d8;
+    width: 100%;
+}
+
+.chart-top-padding {
+    padding-top: 26.5px;
+    object-fit: contain;
+    font-family: 'SFUITextLight';
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #33a2d9;
+}
+
+.chart-top-padding.left {
+    margin-left: 14px;
+}
+
+.chart-top-padding.right {
+    text-align: right;
+    margin-right: 28px;
+    position: relative;
+}
+
+.input-search-location {
+    font-size: 14px !important;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border: solid 0.5px #8ca0b3 !important;
+    border-right: 0px !important;
+    margin-top: -9px;
+}
+
+.btn-icon-search {
+    height: 38px;
+    border-left: 0px !important;
+    object-fit: contain;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border: solid 0.5px #8ca0b3 !important;
+    background: none;
+    margin-top: -9px;
+}
+
+.btn-icon-search:hover {
+    height: 38px;
+    border-left: 0px !important;
+    object-fit: contain;
+    border-radius: 50px;
+    background-color: #ffffff;
+    background: none;
+}
+
+.ic-padding {
+    padding-right: 15px;
+}
+
+.ic-circle {
+    color: #09acf8 !important;
+}
+
+.new-user {
+    text-align: right;
+}
+
+.lenght-chart {
+    object-fit: contain;
+    font-family: 'SFUITextLight';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #586b7c;
+    padding-top: 82px;
+    padding-bottom: 22px;
+}
+
+/*========user============*/
+.user-top {
+    height: 58.5px;
+    object-fit: contain;
+    background-color: #ffffff;
+    border: solid 0.5px #d8d8d8;
+}
+
+.user-top-padding {
+    margin-top: -12px;
+}
+
+.list-user {
+    margin-top: 36px;
+    object-fit: contain;
+    background-color: #ffffff;
+
+}
+
+table > thead > tr > th {
+    object-fit: contain;
+    font-family: 'SFUITextRes';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: black;
+}
+
+table > thead > tr > th {
+    border-bottom: solid 1px #33a2d9 !important;
+}
+
+table > thead > tr {
+    height: 72px;
+}
+
+table > thead > tr > th {
+    margin-top: -10px;
+}
+
+table > thead > tr > th.action {
+    text-align: center !important;
+}
+
+.table-infor {
+    margin-top: 13px;
+}
+
+.star-upgrade {
+    text-align: center;
+    color: #09acf8;
+    padding-top: 9px;
+}
+
+.title-table {
+    padding-bottom: 13px;
+}
+
+.btn-action-us {
+    background: none;
+    font-size: 23px;
+}
+
+.btn-edit:hover {
+    color: #33a2d9;
+}
+
+.btn-reload:hover {
+    color: #fdab04;
+}
+
+.btn-deleted:hover {
+    color: #ff3b30;
+}
+
+.action {
+    text-align: center;
+}
+
+.pagination-list {
+    text-align: center;
+}
+
+/*=====edit user=====*/
+.edit-user-modal.ng-scope {
+    width: 418px;
+    height: 467px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: -77px;
+}
+
+.form-edit-user {
+    padding-top: 41px;
+    padding-left: 40px;
+    padding-right: 38px;
+}
+
+.close-popup {
+    width: 16px;
+    height: 16px;
+    margin-right: 11px;
+    margin-top: 11px;
+    background: url("../img/add-icon.png");
+}
+
+.btn-smbt {
+    text-align: center;
+}
+
+.delete-account {
+    color: #ff3b30;
+}
+
+.btn-delete {
+    object-fit: contain;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: none !important;
+    font-family: 'SFUITextRes';
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    letter-spacing: 0.7px;
+    margin-top: 18px;
+    padding-left: 8px;
+}
+
+.btn-delete-cancel {
+    color: #979797;
+    border: 1px solid #979797 !important;
+    margin-right: 10px;
+}
+
+.btn-delete-cancel:hover {
+    color: #ffffff !important;
+    background: #09acf8 !important;
+    border: 0px !important;
+}
+
+.btn-delete-use {
+    color: #ff3b30 !important;
+    border: 1px solid #ff3b30 !important;
+    margin-left: 10px;
+}
+
+.btn-delete-use:hover {
+    color: #ffffff !important;
+    background: #ff3b30 !important;
+    border: 0px;
+}
+
+.modal-sub-title-name {
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.btn-done-request {
+    color: #ffffff !important;
+    background: #09acf8 !important;
+    border: 0px !important;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.btn-done-request:hover {
+    color: #ffffff !important;
+    background: #09acf8 !important;
+    border: 0px !important;
+    font-size: 14px;
+}
+
+.create-new-account {
+    color: #09acf8 !important;
+    font-size: 30px;
+    float: left;
+    padding-right: 11px;
+}
+
+.title-create-new {
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.cr-new {
+    margin-top: -4px;
+}
+
+.account-lv {
+    text-align: center;
+}
+
+.ng-table-counts.btn-group.pull-right.ng-scope {
+    display: none;
+}
+
+.ng-table-pager.ng-scope {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hide-class {
+    opacity: 0 !important;
+}
+
+g.highcharts-legend-item.highcharts-areaspline-series.highcharts-color-0.highcharts-series-0 {
+    display: none;
+}
+
+g.highcharts-button {
+    display: none;
+}
+
+.input-search-location::-webkit-input-placeholder {
+    padding-left: 12px;
+}
+
+.nodata {
+    text-align: center;
+}
+
+.form-new-admin {
+    padding: 50px;
+}
+
+.add-new-admin-modal .modal-dialog .modal-content .edit-user-modal {
+    height: 600px;
+}
+
+.modal.fade.ng-isolate-scope.add-new-admin-modal.in {
+    margin-top: -240px;
+}
+
+.admin-level {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.7px;
+    color: #929497;
+}
+
+.admin-checkbox {
+    float: right;
+    padding-bottom: 3px;
+}
+
+.admin-checkbox input[type="radio"] {
+    display: none;
+}
+
+.admin-checkbox input[type="radio"] + label {
+    color: #09acf8;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-left: 50px;
+    color: black;
+}
+
+.admin-checkbox input[type="radio"] + label span {
+    box-shadow: 0 0 0 1px #09acf8;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: -1px 7px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.admin-checkbox input[type="radio"] + label span {
+    border: 4px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.admin-checkbox input[type="radio"]:checked + label span {
+    background-color: #09acf8;
+}
+
+.sent-push {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #33a2d9 !important;
+    margin-top: -6px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.exp-csv {
+    cursor: pointer;
+    margin-right: -41px;
+    display: inline-block;
+    font-size: 14px;
+    color: #8ca0b3;
+}
+
+.exp-title {
+    cursor: pointer;
+    font-size: 14px;
+    color: #8ca0b3;
+    padding-left: 32px;
+    margin-top: -1px;
+}
+
+span.icon-csv.ic-padding {
+    font-size: 17px;
+    float: left;
+}
+
+span.icon-shape {
+    width: 25px;
+    height: 25px;
+}
+
+table {
+    color: #6c6e6f;
+    font-size: 14px;
+    font-family: 'SFUIText';
+}
+
+a.menu-header.ng-binding {
+    padding-right: 35px;
+}
+
+textarea#message {
+    height: 105px !important;
+}
+
+.tooltip.top {
+    margin-top: 10px !important;
+}
+
+.tooltip.top .tooltip-inner {
+    background: #33a2d9;
+    margin-top: 5px;
+}
+
+.tooltip.top .tooltip-arrow {
+    color: #33a2d9;
+    border-top-color: #33a2d9;
+    margin-top: 5px;
+
+}
+
+.admin-current {
+    padding-top: 60px;
+}
+
+.form-admin-current {
+    padding-top: 40px;
+}
+
+.btn-current {
+    margin-top: 20px;
+}
+
+.btn-resent:hover {
+    color: #85df21 !important;
+}
+
+.btn-user-cer {
+    cursor: default !important;
+}
+
+.hide-popup {
+    opacity: 0;
+}
+
+.signin-body {
+    height: 800px;
+    background: #ffffff;
+    margin-top: -10px;
+}
+
+/*=============CSV===============*/
+.header-csv {
+    background: #33a2d9;
+    height: 80px;
+}
+
+.csv-logo img {
+    width: 100px;
+    height: 45px;
+    margin-top: 22px;
+    margin-left: 35px;
+}
+
+.csv-title {
+    height: 45px;
+    background: #e3e3e3;
+}
+
+.csv-nam {
+    float: left;
+    padding-right: 90px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.csv-day {
+    padding-top: 5px;
+}
+
+.footer-admin {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-family: "SFUITextRes";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: right;
+    color: rgb(155, 155, 155);
+    height: 61px;
+    object-fit: contain;
+    background-color: rgb(236, 236, 236);
+    padding-top: 25px;
+    position: fixed;
+    margin-left: 250px;
+    padding-right: 32px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 0 !important;
+}
+
+.ng-table-pager.ng-scope {
+    margin-bottom: 62px;
+    /* text-align: center; */
+    background-color: #f5f5f6 !important;
+}
+
+.change-color-checkbox {
+    color: #33a2d9;
+}
+
+.pac-container {
+    z-index: 1100;
+}
+
+span.caret {
+    margin-top: -10px;
+    width: 9px;
+}
+
+span.icon-shape {
+    font-size: 25px;
+}
+
+a.menu-header.ng-binding {
+    margin-top: 5px;
+}
+
+span.icon-push-notification-icon.ic-padding {
+    font-size: 30px;
+    float: left;
+}
+
+.navbar-right .dropdown-menu {
+    right: auto !important;
+}
+
+.send-push {
+    margin-top: 5px;
+    padding-left: 45px;
+}
+
+.dropdown-menu > li > a:hover {
+    color: red !important;
+}
+
+tr:nth-child(odd) {
+    background-color: #f5f5f6 !important;
+}
+
+table {
+    border: solid 0.5px #d8d8d8;
+    margin-bottom: 0px !important;
+}
+
+body {
+    background-color: #f5f5f6 !important;
+}
+
+table > thead > tr > th {
+    background: #fff !important;
+}
+
+a.menu-header.ng-binding {
+    cursor: default;
+}
+
+text.highcharts-credits {
+    display: none;
+}
+
+.chart-input {
+    width: 384px;
+}
+
+.user-form-list {
+    /* position: absolute;*/
+    float: left;
+    margin-right: 30px;
+}
+
+.chart-top-padding.export {
+    text-align: right;
+    margin-left: -10px;
+    position: relative;
+}
+
+.user-export-form {
+    margin-left: 30px !important;
+}
+
+.menu-setting {
+    margin-left: 30px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 5000s ease-in-out 0s;
+    text-align: right;
+}
+
+nav.navbar.navbar-default.home-navbar {
+    height: 61px;
+    border-bottom: solid 0.5px #d8d8d8;
+}
+
+a.dropdown-toggle.menu-header.menu-setting {
+    border-left: 0.5px solid #e4e4e4;
+    border-right: 0.5px solid #e4e4e4;
+    padding-left: 42px;
+    padding-right: 58px;
+    margin-top: 14px;
+    height: 25px;
+}
+
+.name-account {
+    padding-left: 0px !important;
+}
+
+.menu-notification-icon {
+    padding-right: 0px !important;
+}
+
+span.icon-shape {
+    margin-top: -12px;
+    position: absolute;
+    margin-left: -12px;
+}
+
+span.caret {
+    margin-top: 0px !important;
+    width: 9px;
+    /* margin-top: -12px; */
+    position: absolute;
+    margin-left: 20px !important;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 16px !important;
+    margin-left: 70px;
+    border: 0px;
+    width: 194px !important;
+    height: 154px;
+    padding-top: 14px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #fff !important;
+}
+
+.footer-admin {
+    border: solid 0.5px #d8d8d8;
+}
+
+.btn-icon-search {
+    /* background: url("../img/button/loupe.png");*/
+}
+
+.btn-icon-search:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background: #ffffff !important;
+    border-left: 0px !important;
+}
+
+.display-none-notification {
+    display: none !important;
+}
+
+label.label-input {
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    color: #929497;
+    font-family: 'SFUITextRes';
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.7px;
+    margin-top: 10px;
+    cursor: text;
+    display: block;
+}
+
+input.inputSignIn {
+    text-align: right;
+}
+
+input {
+    text-align: right;
+}
+
+.boder-left {
+    border-left: 0px !important;
+}
+
+.chart-notification {
+    width: 224px !important;
+    margin-top: 5.5px;
+}
+
+.chart-notification .pac-container {
+    width: 224px !important;
+
+}
+
+button.btn.btn-default.btn-icon-search {
+    position: absolute;
+    margin-left: -41px;
+    z-index: 100;
+    border: 0px !important;
+    margin-top: -23px;
+}
+
+.search-notification {
+    width: 224px !important;
+    height: 32px !important;
+}
+
+.btn-search-notification {
+    height: 32px !important;
+    margin-top: -20px !important;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #3498db !important;
+    border: solid 1px #cccccc !important;
+}
+
+.pagination > li > a, .pagination > li > span {
+    width: 44px !important;
+    height: 44px !important;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.send-title-span {
+    margin-top: 2px;
+}
+
+.message-title-notification {
+    object-fit: contain;
+    font-family: 'SFUITextRes';
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.7px;
+    color: #929497;
+}
+
+.form-new-notify {
+    padding-top: 17px
+}
+
+textarea#message {
+    border-radius: 9px;
+    margin-top: 7px;
+}
+
+button.btn.btn-login.btn-user-edit {
+    margin-top: 16px;
+}
+
+button.btn.btn-default.btn-delete.btn-done-request.btn-accept-request {
+    margin-top: 11px;
+}
+
+textarea#notes {
+    height: 105px;
+    border-radius: 9px;
+    margin-top: 8px;
+}
+
+.create-new-account-icon {
+    float: left;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 100%;
+    background: url("../img/button/capa-1.png");
+    margin-left: 7px;
+    margin-top: 2.5px;
+    margin-right: 11px;
+}
+
+.edit-admin-modal {
+    height: 367px !important;
+    margin-top: -170px !important;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    margin-right: 12px;
+}
+
+button.btn.btn-login.btn-edit-admin {
+    margin-top: 5px;
+}
+
+.label-input {
+    display: none;
+}
+
+.request-email-label {
+    margin-top: 45px;
+}
+
+/* margin top label input */
+label.label-input.request-email-label {
+    margin-top: 45px;
+}
+
+/*css padding left input*/
+input#email {
+    padding-left: 40px;
+}
+
+input#password {
+    padding-left: 65px;
+}
+
+input#passwordConfirmation {
+    padding-left: 125px;
+}
+
+input#passwordNew {
+    padding-left: 98px;
+}
+
+input#address {
+    padding-left: 57px;
+}
+
+input#firstName {
+    padding-left: 75px;
+}
+
+input#lastName {
+    padding-left: 65px;
+}
+
+input#currentpassword {
+    padding-left: 120px;
+}
+
+
+input#location {
+    padding-left: 65px;
+}
+
+input#name {
+    padding-left: 40px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #f8f8f8 !important;
+}
+.btn-icon-search:hover{
+    background: none !important;
+}
+.input-group-btn > .btn:hover, .input-group-btn > .btn:focus, .input-group-btn > .btn:active{
+    background: none !important;
+}
+.btn-change-pass{
+    margin-top: 28px;
+}
+.btn-new-admin{
+    margin-top: 1px;
+}
+.form-new-admin-padding{
+    margin-top: -15px;
+}
+.btn-delete-padding{
+    margin-top: 12px !important;
+}
+select#repeatSelect {
+    width: 53%;
+    height:37px;
+}
+.btn-category{
+    text-align: center !important;
+}

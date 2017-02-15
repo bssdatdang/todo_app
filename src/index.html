@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <title>Todo App</title>
+    <meta name="keywords" content="Billby" />
+    <meta name="description" content="Billby">
+    <meta name="author" content="Billby">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font CSS (Via CDN) -->
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,900">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/simple-line-icons.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/font.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/animation.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/checkbox.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/load.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/app.billby.css" type="text/css">
+    <link rel="stylesheet" href="assets/icomoon/style.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <![endif]-->
+
+
+    <!-- build:js vendor.js -->
+    <script type="text/javascript" src="assets/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/export.js"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+    <!-- compiled CSS -->
+    <% styles.forEach( function ( file ) { %>
+    <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
+
+    <!-- compiled JavaScript -->
+    <% scripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>"></script><% }); %>
+
+
+</head>
+
+<body>
+
+    <div ui-view="root">
+
+    </div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : '257499424626169',
+                xfbml      : true,
+                status     : true,
+                cookie     : true,
+                version    : 'v2.6'
+            });
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- BEGIN Pre-requisites -->
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+    <script src="https://apis.google.com/js/api:client.js"></script>
+    <!-- END Pre-requisites -->
+
+    <!--Add stripe js-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&key=AIzaSyC3PNPPbPU9nuyRNfWRix9d_eJdmvSQgiE&language=en"></script>
+    <!--highcharts-->
+</body>
+<div class="modal fade" id="processModal" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="windows8">
+            <div class="wBall" id="wBall_1">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_2">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_3">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_4">
+                <div class="wInnerBall"></div>
+            </div>
+            <div class="wBall" id="wBall_5">
+                <div class="wInnerBall"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</html>

@@ -1,0 +1,37 @@
+<div class="edit-user-modal edit-admin-modal">
+    <a class="close-popup pull-right" ng-click="cancel()"></a>
+    <div class="modal-title-mess">
+        Add Category
+    </div>
+    <form class="form-horizontal form-new-admin" name="formCategory" ng-submit="addCategory(formCategory)" role="form"
+          tabindex="-1">
+        <fieldset>
+            <div class="form-group">
+                <div class="input-group">
+                    <input class="form-control inputSignIn"
+                           ng-model="category.category"
+                           type="text"
+                           name="category"
+                           id="category"
+                           tabindex="1"
+                           minlength="4"
+                           maxlength="255"
+                           ng-required
+                           placeholder="Category"
+                    >
+                </div>
+            </div>
+            <div class="form-group btn-category">
+                <button tabindex="2"
+                        class="btn btn-login"
+                        type="submit"
+                        ng-disabled="!formCategory.$valid
+                                || !formCategory.category.$viewValue
+                                "
+                >
+                    Add
+                </button>
+            </div>
+        </fieldset>
+    </form>
+</div>

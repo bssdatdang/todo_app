@@ -1,0 +1,9 @@
+# Untracked files:
+node_modules
+vendor
+build
+src (copy)
+bin
+vendor_compile
+.idea/*
+.idea
