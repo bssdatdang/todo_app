@@ -7,7 +7,7 @@ Install Node.js and then:
 
 ```sh
 $ git clone 
-$ cd billby_frontend
+$ cd <httpdoc-folder>
 $ sudo npm -g install grunt-cli karma bower
 $ npm install
 $ bower install
